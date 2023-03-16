@@ -1,6 +1,9 @@
 import requests
 import json
 
+# pip install requests
+# pip install mysql-connector-python
+
 def request_data(page_num):
     url = "https://app-vava-dtc-search-tr-prod.azurewebsites.net/search"
 
